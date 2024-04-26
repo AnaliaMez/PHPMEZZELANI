@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodoFlix- Catálogo de películas</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <script src="https://kit.fontawesome.com/4c4aed3004.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"
+</head>
+<!--body style="color:rgb(96, 144, 179);"-->
+<body>
+    <header id="header" class="header fondoRosa">
+        <!--etiqueta contenedora de la nav-->
+        <nav>
+            <!--img src="./ASSETS/img/logo-peli.png" alt="Logo Codoflix es un logo que representa a un video"width="100" -->
+            <a href="#">
+                <img src="./assets/img/logo-peli (640).png" alt="logo imagen" width="100" loading="lazy">
+               </a>
+               <ul>
+                    
+                <li>
+                  <a href="#tendencia">Tendencia</a>
+                </li>
+                <li>
+                  <a href="./pages/registrarse.html">Registrarse</a>
+                </li>
+                <li>
+                  <a href="./pages/iniciosesion.html">Iniciar Sesión</a>
+                </li>
+                <!--<li>
+                   <a href="https://www.google.com/" target="_blank">Google</a>
+                </li> -->
+             </ul>   
+        </nav>
+    </header>
+    <main>
+        <section class="sectiontitle">
+          <div class="contitulos">
+            <h1>Las mejores películas y series las encontrás en Codo Flix</h1>
+              <h2>Accedé desde cualquier dispositivo</h2>
+              <h2>Cancelación gratuita</h2>
+              <a href="./pages/registrarse.html">Registrate</a>
+          </div>
+        </section>
+        <section>
+          <h2>¿Qué te gustaría ver hoy?</h2>
+            <!--form action="">
+              <input type="text" placeholder="Buscar" id="buscar" name="buscar" required>
+              <input type="submit" value="Buscar" id="btnBuscar" name="btnBuscar">
+            </!--form-->
+            <hr>
+          </section>
+          <section CLASS="tendencia">
+             <h2>Las tendencias de hoy</h2>
+                          
+            <div class="galeriaTendencias">
+              <a href="./pages/detalle.html">
+                <img src="./assets/img/peli_5.jpeg" alt="Encanto" loading="lazy" width="200px">
+              </a>
+              <h3>Encanto</h3>
+            </div>
+            <div>
+              <img src="./assets/img/peli_6.jpeg" alt="Luca" loading="lazy" width="200px">
+              <h3>Luca</h3>
+            </div>
+            <div>
+              <img src="./assets/img/peli_7.jpg" alt="Brave" loading="lazy" width="200px">
+              <h3>Brave</h3>
+            </div>
+            <div>
+              <img src="./assets/img/peli_8.jpeg" alt="Intensamente" loading="lazy" width="200px">
+              <h3>Intensamente</h3>
+            </div>
+             <button>Anterior</button>
+             <button>Proximo</button>
+          </section>
+          <hr>
+          <section class="galeriaAclamadas">
+            <h2>Las más aclamadas</h2>
+            <img src="./assets/img/aclamada_1.jpg" alt="Thor" width=300PX height="500">
+            <img src="./assets/img/aclamada_2.jpg" alt="Venom" width=300PX height="500">
+            <img src="./assets/img/aclamada_3.jpg" alt="Valle de las sombras" width=300PX height="500">
+            <img src="./assets/img/aclamada_4.jpg" alt="Kunfu Panda 4" width=300PX height="500">
+
+          </section>
+          <h2 class="colorVioleta fuenteMediana">PRÓXIMAMENTE</h2>
+          <p class="colorVioleta">Más estrenos</p>
+          <p>Sección de Series</p>
+          <p>Videos infantiles</p>
+        </section>
+          <video autoplay muted loop>
+            <source src="./assets/video/codo flix.mp4" type="video/mp4">
+        </video>  
+    </main>
+    <footer>
+        <nav>
+            <ul>
+              <li>
+                <a href="">Terminos y Condiciones</a>
+              </li>
+              <li>
+                <a href="">Ayuda</a>
+              </li>
+              <li>
+                <a href="">Preguntas Frecuentes</a>
+              </li>
+              <li>
+                <a href="">Administrador de Peliculas</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#principal">
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+    </footer>
+     
+</body>
+</html>
