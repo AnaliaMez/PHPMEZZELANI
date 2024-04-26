@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+    
+:root{
+    --main-color:#f3f3f3;
+    --secondary-color:#335;
+    --third-color: #990001;
+}
+
+body {background-color:rgb(75, 76, 151)}
+
+h1{
+    color: #e6e5ec;
+    font-size: 2.5rem;
+        margin-bottom: 20px;
+}
+
+h2{
+    color: #f5f3f6;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/*#h2{
+    background-color: #e2892b;
+}
+.bgRosa{
+    background-color: #f276b4;
+}
+.bgVioleta{
+    background-color: #845ca9;
+}
+
+.colorRojo{
+    color: #ff0000;
+}*/
+
+p{
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    background-color: #a4a4a4;
+}
+
+/*clase
+.colorVioleta{
+    color: #490786;
+}
+.colorRosa{
+    color: #740b59;
+
+}*/
+/*nomenclatura para escribir los nombres de las clases: camelCase- Bem*/
+.fuenteMediana{
+  font-size: 30px;
+}
+
+header, footer{
+    background-color: aquamarine;
+    color: var(--main-color);
+    padding: 10px;
+}
+.header{
+    padding: 40px;
+    height: 15vh;
+    position: sticky;
+    top:0;
+    z-index: 10;
+    nav{
+        height: 0;
+        background-color: #2a084a;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a{
+            text-decoration: none;
+            color:var(color);
+            font-size: 1.5rem;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            background-color: aliceblue;
+            column-gap: 20px;
+        }
+    }
+}
+
+.fondoRosa{
+    background-color: #6b6367;
+}
+
+.sectiontitle{
+    height: 85vh;
+    background:url("../ASSETS/img/encab.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    .contitulos{
+        backdrop-filter: blur(10px);
+        width: 60%;
+        margin:0 auto;
+        border-radius: 5px;
+        /*padding-top: 20px;*/
+        padding-bottom: 20px;
+        a{
+            text-decoration: none;
+            margin-top: 20px;
+            color:var(--main-color);
+            font-size: 2rem;
+            display: inline-block;
+            border:2px solid var(--main-color);
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+    }
+    
+}
+
+.main{
+    background-color: bisque;
+
+}
+.main.seccionDetalle{
+    background-color: #f276b4;
+    color:yellow;
+}
+
+.main.seccionDetalle{
+    background-color: #f4007a;
+    font-size: 50px;
+}
+
+.seccionDetalle{
+    background-color: #154008;
+    color:white;
+    text-align: center;
+    font-size:30px;
+}
+
+/*anidaciones*/
+
+.main{
+    background-color: bisque;
+    .seccionDetalle{
+        background-color: #f276b4;
+        color:yellow;
+        font-size: 50px;
+       
+    }
+}
+
+
+.seccionDetalle > *{
+    color: #23053e;
+}
+
+
+
+.colorVioleta{
+    color: #2a084a;
+}*/
+
+.galeriaAclamadas > img
+{
+    width: 200px;
+}
+
+.tendencia
+{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    h2{
+        margin-top:50px;
+        margin-bottom:20px;
+    }
+    .galeriaTendencias{
+        display: flex;
+        /*justify-content: space-evenly;*/
+        gap:20px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        div{
+            width: 250%;
+            height:350%;
+            box-shadow: 10px 10px 47px -6px rgba(255, 255, 255, 0.42);
+            border-radius: 5px;
+            img{
+                width: 100%;
+                height:100%;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+        }
+    }
+    button{
+        margin-bottom: 20px;
+    }
+}
